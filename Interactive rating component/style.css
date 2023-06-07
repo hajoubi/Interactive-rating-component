@@ -1,0 +1,57 @@
+.content_container{
+    width: 450px;
+    height: 350px;
+    background-image: linear-gradient(to bottom right, rgb(48, 51, 75), rgb(27, 29, 44));
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.rouded_button{
+    background-color: #3f466b; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius:50px ;
+  width: 50px;
+  height: 50px;
+  font-stretch: normal;
+  opacity: 40%;
+}
+#submit_btn{
+    background-color: rgb(255, 145, 0);
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    color: white ;
+    box-shadow: none;
+    
+    
+}
+#submit_btn:hover{
+    background-color:white;
+    color: orange;
+}
+.rouded_button:hover{
+    transition-duration: 0.4;
+    background-color: rgb(73, 150, 216);
+    opacity: 100%;
+}
+#staricon{
+    background-image: radial-gradient(rgb(27, 29, 44),rgb(48, 51, 75));
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
